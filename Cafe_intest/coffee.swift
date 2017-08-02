@@ -13,14 +13,14 @@ class Coffee {
     var nameOfCoffee:String
     var description:String
     var coffeeImage:String
-    var price:Int
+    var price:String
     var location:String
    
     init(title:String,
          nameOfCoffee:String,
          description:String,
          coffeeImage:String,
-         price:Int,
+         price:String,
          location:String)
     {
         self.title = title

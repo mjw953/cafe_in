@@ -52,7 +52,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="cev-Dg-8ug">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="100" id="cev-Dg-8ug">
                                 <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cev-Dg-8ug" id="TuA-uw-5H7">
@@ -73,10 +73,10 @@
             </objects>
             <point key="canvasLocation" x="3526" y="-1272"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Coffee Detail Table View Controller-->
         <scene sceneID="Okn-rv-OVB">
             <objects>
-                <tableViewController id="aEC-wy-FKy" sceneMemberID="viewController">
+                <tableViewController id="aEC-wy-FKy" customClass="CoffeeDetailTableViewController" customModule="Cafe_intest" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ekd-zn-C78">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -123,6 +123,12 @@
                             <outlet property="delegate" destination="aEC-wy-FKy" id="MOa-NY-bYD"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="detailCoffeeImage" destination="DKQ-kN-flz" id="K3X-4s-6n9"/>
+                        <outlet property="detailNameOfCoffee" destination="Cvb-ON-sqq" id="XU8-Br-Skc"/>
+                        <outlet property="detailPrice" destination="J0W-Mz-mtT" id="p8G-hU-cbd"/>
+                        <outlet property="detailTitle" destination="X7d-Pq-mXv" id="fQw-eH-9w2"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5jd-hw-5ZU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

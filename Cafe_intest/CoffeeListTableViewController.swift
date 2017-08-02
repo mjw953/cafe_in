@@ -21,12 +21,12 @@ class CoffeeListTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
       
-        let coffee1 = Coffee(title: "스타벅스", nameOfCoffee: "아메리카노", description: "맛있다", coffeeImage: "starbucks", price: 4500, location: "흑석동")
+        let coffee1 = Coffee(title: "스타벅스", nameOfCoffee: "아메리카노", description: "맛있다", coffeeImage: "starbucks", price: "4500", location: "흑석동")
         
        
-        let coffee2 = Coffee(title: "탐탐", nameOfCoffee: "카페라떼", description: "달달하다", coffeeImage: "tomtom", price: 4300, location: "상도동")
+        let coffee2 = Coffee(title: "탐탐", nameOfCoffee: "카페라떼", description: "달달하다", coffeeImage: "tomtom", price: "4300", location: "상도동")
     
-        let coffee3 = Coffee(title: "엔젤인어스", nameOfCoffee: "카페모카", description: "맛이있다.", coffeeImage: "angelinus", price: 4900, location: "동작역")
+        let coffee3 = Coffee(title: "엔젤인어스", nameOfCoffee: "카페모카", description: "맛이있다.", coffeeImage: "angelinus", price: "4900", location: "동작역")
         
         coffees.append(coffee1)
         coffees.append(coffee2)

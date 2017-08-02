@@ -14,6 +14,9 @@
 		66E637661F3027C30001C9FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E637641F3027C30001C9FE /* LaunchScreen.storyboard */; };
 		66E637711F3027C30001C9FE /* Cafe_intestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E637701F3027C30001C9FE /* Cafe_intestTests.swift */; };
 		66E6377C1F3027C30001C9FE /* Cafe_intestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6377B1F3027C30001C9FE /* Cafe_intestUITests.swift */; };
+		66E6378A1F3029840001C9FE /* coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E637891F3029840001C9FE /* coffee.swift */; };
+		66E6378C1F302AFB0001C9FE /* CoffeeListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E6378B1F302AFB0001C9FE /* CoffeeListTableViewController.swift */; };
+		66FC460E1F315E1000699BCF /* CoffeeDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FC460D1F315E1000699BCF /* CoffeeDetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		66E637771F3027C30001C9FE /* Cafe_intestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cafe_intestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E6377B1F3027C30001C9FE /* Cafe_intestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe_intestUITests.swift; sourceTree = "<group>"; };
 		66E6377D1F3027C30001C9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66E637891F3029840001C9FE /* coffee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = coffee.swift; sourceTree = "<group>"; };
+		66E6378B1F302AFB0001C9FE /* CoffeeListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeListTableViewController.swift; sourceTree = "<group>"; };
+		66FC460D1F315E1000699BCF /* CoffeeDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeDetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				66E637621F3027C30001C9FE /* Assets.xcassets */,
 				66E637641F3027C30001C9FE /* LaunchScreen.storyboard */,
 				66E637671F3027C30001C9FE /* Info.plist */,
+				66E637891F3029840001C9FE /* coffee.swift */,
+				66E6378B1F302AFB0001C9FE /* CoffeeListTableViewController.swift */,
+				66FC460D1F315E1000699BCF /* CoffeeDetailTableViewController.swift */,
 			);
 			path = Cafe_intest;
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				66E6375E1F3027C30001C9FE /* ViewController.swift in Sources */,
+				66E6378C1F302AFB0001C9FE /* CoffeeListTableViewController.swift in Sources */,
 				66E6375C1F3027C30001C9FE /* AppDelegate.swift in Sources */,
+				66E6378A1F3029840001C9FE /* coffee.swift in Sources */,
+				66FC460E1F315E1000699BCF /* CoffeeDetailTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +515,7 @@
 				66E637821F3027C30001C9FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66E637831F3027C30001C9FE /* Build configuration list for PBXNativeTarget "Cafe_intestTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +524,7 @@
 				66E637851F3027C30001C9FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66E637861F3027C30001C9FE /* Build configuration list for PBXNativeTarget "Cafe_intestUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +533,7 @@
 				66E637881F3027C30001C9FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
